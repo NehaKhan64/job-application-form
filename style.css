@@ -1,0 +1,116 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+       background:  #f6ccfc;
+}
+
+.container{
+            margin: 0 auto;
+            max-width: 900px;
+}
+
+h1{
+      text-align: center;
+      color: #ff69b4;
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+.section-label{
+       margin-top: 30px;
+      font-size: 18px;
+      color: #a61e4d;
+      margin-bottom: 10px;
+
+}
+
+.Apply-box{
+            max-width: 600px;
+            padding: 35px;
+            background-color:  #fff9fc; 
+            margin: 0 auto;
+            margin-top: 70px;
+            box-shadow: 0 10px 40px rgba(255, 128, 182, 0.2);
+            border: 2px dashed #ffb3d1;
+            border-radius: 30px;
+            margin-bottom: 70;
+            width: 100%;
+           max-width: 670px;
+}
+
+.form-conrol{
+            margin-bottom: 18px;
+ }
+
+.textarea-control {
+           margin-bottom: 18px;
+}
+label {
+      display: block;
+      margin-bottom: 6px;
+      color: #d6336c;
+      font-weight: 600;
+ }
+
+
+ select{
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #ffc9de;
+      border-radius: 15px;
+      background-color: #fff;
+      font-size: 14px;
+      transition: 0.3s ease 
+}
+
+textarea{
+      width: 100%;
+      padding: 12px;
+      border: 2px solid #ffc9de;
+      border-radius: 15px;
+      background-color: #fff;
+      font-size: 14px;
+      transition: 0.3s ease}
+
+input{
+    width: 100%;
+      padding: 12px;
+      border: 2px solid #ffc9de;
+      border-radius: 15px;
+      background-color: #fff;
+      font-size: 14px;
+      transition: 0.3s ease;
+}
+
+input:focus,
+    textarea:focus,
+    select:focus {
+      border-color: #da77f2;
+      box-shadow: 0 0 8px #f783ac;
+      outline: none;
+    }
+
+.submit-btn{
+   background-color: #f7bfff;
+      color: #6a097d;
+      border: none;
+      padding: 14px 20px;
+      border-radius: 16px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 10px rgba(255, 153, 204, 0.4);
+}
+
+.submit-btn:hover {
+      background-color: #eebefa;
+    }
+  
+     
+     
